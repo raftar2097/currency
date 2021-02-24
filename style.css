@@ -13,14 +13,19 @@ body{
     border-style: solid;
     font-family: Helvetica, Arial, sans-serif;
 }
-@media screen and (min-width: 450px) {
-	input{   
-	  height:30px;
-	}
-}
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 360px) {
 	input{   
 	  height:70px;
-	}
+	  }
   }
-  
+  @media screen and (max-width: 360px) {
+    input{   
+      height:90px;
+    }
+  }
+  @media screen and (min-width: 450px) {
+    input{   
+      height:30px;
+      }
+    }
+    

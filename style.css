@@ -1,0 +1,14 @@
+body{
+    background: papayawhip;
+}
+.rishab{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+.rishab1{
+    padding:50px;
+    border-style: solid;
+}

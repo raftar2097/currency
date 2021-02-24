@@ -9,7 +9,7 @@ window.addEventListener("load",()=>{
         .then(data=>{
             console.log(data);
             const value = data.rates.INR;
-            real.innerHTML = "Current Rate: "+value;
+            real.innerHTML = "Current Rate: "+value.toFixed(2);
             output.value = (input.value/value*10).toFixed(2);        
         })
     })

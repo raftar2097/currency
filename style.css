@@ -6,9 +6,20 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
-    font-size: 1.5gitem;
+    font-size: 1.5em;
 }
 .rishab1{
     padding:50px;
     border-style: solid;
 }
+@media screen and (min-width: 450px) {
+	input{   
+	  height:30px;
+	}
+}
+@media screen and (max-width: 450px) {
+	input{   
+	  height:70px;
+	}
+  }
+  
